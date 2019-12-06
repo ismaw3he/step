@@ -1,0 +1,94 @@
+@media only screen and (min-width: 768px) {
+  .buy--now{
+    width: 21%;
+    margin: 20px;
+  }
+  .navbar{
+    flex-wrap: wrap;
+    height: 135px;
+  }
+  .logo--container{
+    width: 200px;
+  }
+  .forkio{
+    display: inline-block;
+  }
+  .navigation__burger{
+    display: none;
+  }
+  .navbar__menu{
+    display: flex;
+    width: 540px;
+    margin: 0 auto  15px auto;
+
+  }
+  .navbar__menu__item{
+    border-bottom: none;
+    font-weight: bold;
+    color: #8d81ac;
+  }
+
+  .navbar__menu__item:hover{
+    color: white;
+    border-left: none;
+    padding: 5px 10px;
+  }
+  .navbar__menu__item:hover::before{
+    display: none;
+  }
+  .break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+
+  .header--main__text > h1  {
+    font-size: 70px;
+  }
+  .header--main__text > h2  {
+    font-size: 21px;
+  }
+  .header--main__text > p  {
+    font-size: 15px;
+  }
+
+  /*    **********************************************/
+  .about--fork{
+    background-position-y: 0;
+  }
+
+  .about--fork__header {
+    font-size: 50px;
+  }
+  .about--fork__text{
+    display: block;
+
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .buy--now{
+    order: 3;
+  }
+  .navbar__menu{
+    margin-right: 0;
+    /* margin-left: 13.5vw; */
+    margin-bottom: 0;
+  }
+  .header--main{
+    height: 660px;
+    background-position-y: -80px;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+
+  .header--main__text > h1  {
+    font-size: 95px;
+  }
+  .header--main__text > h2  {
+    font-size: 25px;
+  }
+  .header--main__text > p  {
+    font-size: 16px;
+  }
+}

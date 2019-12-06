@@ -1,0 +1,65 @@
+
+/******************About Fork*********************/
+.about--fork{
+    background-color: #4b3b4e;
+    background-image: url(../img/about-fork-bcg.png);
+    background-position-y: 22px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+.about--fork__header{
+    font-size: 224%;
+    color: white;
+    margin: 0 auto;
+    padding-top: 10%;
+    width: 90%;
+    text-align: center;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.cards {
+    max-width: 960px;
+    margin: 45px auto 0px auto;
+    padding-bottom: 45px;
+}
+
+.cards__item {
+    margin: 7% auto;
+    width: 240px;
+    height: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+}
+
+.article--img {
+    margin-top: 5px;
+
+}
+
+.article--title {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.about--fork__text{
+    display: none;
+    width: 85%;
+    color: #695b6a;
+    text-align: center;
+    margin: 0 auto 25px auto;
+}
+.about--fork__end{
+    height: 20px;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid #695b6a;
+}
